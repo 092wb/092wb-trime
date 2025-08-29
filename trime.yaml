@@ -56,7 +56,7 @@ style:
   candidate_use_cursor: true #高亮候选项
   candidate_view_height: *HXG #候选区高度
   color_scheme: zzzb #配色方案
-  comment_font: 牛码飞机手机5代超集宋体.ttf #候选窗和状态栏提示字型
+  comment_font: 092etymon.otf #候选窗和状态栏提示字型
   comment_height: 25 #候选窗和状态栏提示区高度
   comment_on_top: true #候选窗和状态栏提示在上方true或右侧false
   comment_text_size: 12 #候选窗和状态栏提示字号
