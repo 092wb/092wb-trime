@@ -105,7 +105,7 @@ style:
   preview_offset: -10 #按键提示纵向偏移
   preview_text_size: 36 #按键提示字号
   proximity_correction: true #无click时是否沿用相邻键功能，位于左右两端的即使否也会沿用
-  reset_ascii_mode: false #不同进程中显示键盘时重置为中文状态（true:重置为中文；false:记忆中英状态）
+  reset_ascii_mode: true #不同进程中显示键盘时重置为中文状态（true:重置为中文；false:记忆中英状态）
   round_corner: *FHY #符号键盘按键圆角半径
   shadow_radius: 0.0 #按键阴影半径
   speech_opencc_config: none #语音输入简繁转换
@@ -687,8 +687,8 @@ preset_keyboards:
       - {click: 6, long_click: , key_text_color: TEX, key_symbol_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH, hilited_key_text_color: CXH, hilited_key_symbol_color: CSH}
       - {click: 7, long_click: , key_text_color: TEX, key_symbol_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH, hilited_key_text_color: AXH, hilited_key_symbol_color: ASH}
       - {click: 8, long_click: , key_text_color: TEX, key_symbol_color: TEX, key_back_color: BBB, hilited_key_back_color: BBH, hilited_key_text_color: BXH, hilited_key_symbol_color: BSH}
-      - {click: 9, long_click: , composing: Page_Up1, key_text_color: TEX, key_symbol_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH, hilited_key_text_color: CXH, hilited_key_symbol_color: CSH}
-      - {click: 0, long_click: , composing: Page_Down1, key_text_color: TEX, key_symbol_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH, hilited_key_text_color: AXH, hilited_key_symbol_color: ASH}
+      - {click: 9, long_click: , key_text_color: TEX, key_symbol_color: TEX, key_back_color: CCC, hilited_key_back_color: CCH, hilited_key_text_color: CXH, hilited_key_symbol_color: CSH}
+      - {click: 0, long_click: , key_text_color: TEX, key_symbol_color: TEX, key_back_color: AAA, hilited_key_back_color: AAH, hilited_key_text_color: AXH, hilited_key_symbol_color: ASH}
 
 
       - {click: q, long_click: 1, swipe_down: lua_tq2, key_back_color: QQQ, key_text_color: sbn}
