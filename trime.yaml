@@ -142,7 +142,7 @@ fallback_colors:
   key_symbol_color: comment_text_color #按键上下符号
   hilited_key_symbol_color: hilited_key_text_color #高亮按键符号
   #shift键锁定
-  on_key_back_color: 0xff7200
+  on_key_back_color: shift
   on_key_text_color: 0xffffffff
   hilited_on_key_back_color: hilited_key_back_color
   hilited_on_key_text_color: on_key_text_color
